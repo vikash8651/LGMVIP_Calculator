@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    width: 400px;
+    margin-top: 40px;
+    border:5px outset black;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+    background-color: rgb(246, 200, 205);
+    text-align: center;
+}
+input[type=text]{
+    background-color: rgb(220, 219, 219);
+    height: 60px;
+    color: black;
+    border: 3px outset black;
+    width: 315px;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+}
+#viewer{
+    margin: auto;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+
+.btn{
+    font-size: 30px;
+    cursor: pointer;
+    padding:  10px;
+    width: 60px;
+    margin: auto;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    border: 5px outset black;
+}
+.btn1{
+    border-radius: 0 !important ;
+}
+
+.extra{
+    background-color: orangered;
+    border: 5px outset orangered;
+}
+
+
+.btn:active{
+    border: 5px inset black;
+}
+
+.extra:active{
+    border: 5px inset red;
+}
